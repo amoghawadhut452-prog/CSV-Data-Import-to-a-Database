@@ -1,3 +1,13 @@
+#First download the given user.csv file and run this code then it will work
+#this code is google colab oriented, you can make changes according in your system if not using colab
+from google.colab import files
+
+# Upload files from your computer
+uploaded = files.upload()
+
+
+
+
 import csv
 import sqlite3
 
